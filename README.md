@@ -1,8 +1,8 @@
-# CodeForces
+# Codeforces
 
 https://codeforces.com/submissions/dreknix
 
-* [0977/](0977 - Codeforces Round #479 (Div. 3))
+* [0977 - Codeforces Round #479 (Div. 3)](0977/)
 
 ## License
 

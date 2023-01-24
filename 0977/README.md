@@ -1,9 +1,9 @@
-# CodeForces Round #479 (Div. 3) - Contest 977
+# Codeforces Round #479 (Div. 3) - Contest 977
 
 https://codeforces.com/contest/977
 
-* [a/](A - Wrong Subtraction)
-* [b/](B - Two-gram)
+* [A - Wrong Subtraction](a/)
+* [B - Two-gram](b/)
 * C - Less or Equal
 * D - Divide by three, multiply by two
 * E - Cyclic Components
