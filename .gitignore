@@ -16,5 +16,5 @@
 !*.py
 !*.kt
 !*.go
-!*.in
-!*.ans
+!sample_*.in
+!sample_*.ans

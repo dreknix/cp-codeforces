@@ -25,6 +25,11 @@ sample_*.in: ${TARGET} FORCE
 	    /usr/bin/time --format="%M/%X/%K/%p/%t KB | %P CPU | %e/%S/%U seconds" \
 	    ./${TARGET} | diff --color=always -s $$f.ans -
 
+test_*.in: ${TARGET} FORCE
+	@echo "cat $@ | ./${TARGET}"; \
+	cat $@ | \
+	    /usr/bin/time --format="%M/%X/%K/%p/%t KB | %P CPU | %e/%S/%U seconds" \
+	    ./${TARGET}
 
 FORCE:
 
