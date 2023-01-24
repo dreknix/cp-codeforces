@@ -23,7 +23,7 @@ sample_*.in: ${TARGET} FORCE
 	echo "cat $@ | ./${TARGET}"; \
 	cat $@ | \
 	    /usr/bin/time --format="%M/%X/%K/%p/%t KB | %P CPU | %e/%S/%U seconds" \
-	    ./${TARGET} | diff --color=always -s $$f.ans -
+	    ./${TARGET} | diff --color=always -sZ $$f.ans -
 
 test_*.in: ${TARGET} FORCE
 	@echo "cat $@ | ./${TARGET}"; \
@@ -40,7 +40,7 @@ run: ${TARGET}
 	  f=$$(basename $$a .in); \
 	  cat $$a | \
 	      ./${TARGET} | \
-		  diff --color=always $$f.ans -; \
+		  diff --color=always -Z $$f.ans -; \
 	  true; \
 	done
 
