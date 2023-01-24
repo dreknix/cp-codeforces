@@ -1,3 +1,5 @@
 # Codeforces Round #479 - B. Two-gram
 
-https://codeforces.com/contest/977/problem/B
+* [Problem description](https://codeforces.com/contest/977/problem/B)
+* [Accepted solution](https://codeforces.com/contest/977/submission/190288831)
+* [../Problemset](../)
